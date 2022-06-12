@@ -5,6 +5,7 @@ module.exports = {
   ],
   "addons": [
     "@storybook/addon-links",
+    "@etchteam/storybook-addon-css-variables-theme",
     "@storybook/addon-essentials"
   ],
   "framework": "@storybook/web-components"

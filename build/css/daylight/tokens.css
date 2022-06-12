@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Sun, 12 Jun 2022 20:34:23 GMT
+ * Generated on Sun, 12 Jun 2022 21:33:29 GMT
  */
 
 :root {
+  --position-fixed: fixed;
   --spacing-base: 8px;
   --paragraph-spacing-default: 0;
   --letter-spacing-body: 0%;
@@ -385,7 +386,7 @@
   --background-active: rgba(var(--gray-500), var(--opacity-32));
   --background-hover: rgba(var(--gray-500), var(--opacity-12));
   --background-base: var(--white);
-  --badge-inverse: [object Object];
+  --badge-layer: [object Object];
   --badge-danger: [object Object];
   --badge-secondary: [object Object];
   --badge-primary: [object Object];

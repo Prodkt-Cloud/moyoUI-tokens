@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 12 Jun 2022 20:34:23 GMT
+// Generated on Sun, 12 Jun 2022 21:33:29 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -347,7 +347,7 @@
 #define BadgePrimary [object Object]
 #define BadgeSecondary [object Object]
 #define BadgeDanger [object Object]
-#define BadgeInverse [object Object]
+#define BadgeLayer [object Object]
 #define Code01 [object Object]
 #define Code02 [object Object]
 #define Label01 [object Object]
@@ -356,6 +356,7 @@
 #define HelperText02 [object Object]
 #define Legal01 [object Object]
 #define Legal02 [object Object]
+#define PositionFixed fixed
 #define BackgroundBase #ffffff
 #define BackgroundHover rgba(#6b7280, 12%)
 #define BackgroundActive rgba(#6b7280, 32%)

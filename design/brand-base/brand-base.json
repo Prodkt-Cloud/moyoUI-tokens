@@ -557,14 +557,14 @@
       },
       "type": "composition"
     },
-    "inverse": {
+    "layer": {
       "value": {
         "borderRadius": "{radius.4}",
-        "fill": "{background.inverse}",
+        "fill": "{layer.01}",
         "horizontalPadding": "{spacing.03}",
         "verticalPadding": "{spacing.02}",
         "borderWidth": "{borderWidth.1}",
-        "border": "{background.inverse}",
+        "border": "{layer.01}",
         "typography": "{helper-text.01}"
       },
       "type": "composition"
@@ -680,6 +680,12 @@
         "textCase": "{textCase.none}"
       },
       "type": "typography"
+    }
+  },
+  "position": {
+    "fixed": {
+      "value": "fixed",
+      "type": "other"
     }
   }
 }

@@ -1,0 +1,21 @@
+.moyo-button {
+  font-family: var(--font-family-body), 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: var(--font-weights-body-regular);
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  display: inline-block;
+  line-height: var(--line-height-body-01);
+  background-color: var(--brand-primary);
+  border: 1px solid var(--button-primary);
+  padding: var(--spacing-10);
+}
+.storybook-button--primary {
+}
+.storybook-button--secondary {
+}
+.storybook-button--small {
+}
+.storybook-button--medium {
+}
+.storybook-button--large {
+}

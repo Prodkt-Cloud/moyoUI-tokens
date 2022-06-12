@@ -10,11 +10,26 @@
   "scripts": {
     "build": "node ./split-files.js && node ./build.js",
     "clean": "rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Bryan Funk",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@storybook/addon-actions": "^6.5.8",
+    "@storybook/addon-essentials": "^6.5.8",
+    "@storybook/addon-links": "^6.5.8",
+    "@storybook/builder-webpack4": "^6.5.8",
+    "@storybook/manager-webpack4": "^6.5.8",
+    "@storybook/web-components": "^6.5.8",
+    "babel-loader": "^8.2.5",
+    "lit-html": "^2.2.5",
     "style-dictionary": "3.7.1"
+  },
+  "dependencies": {
+    "@etchteam/storybook-addon-css-variables-theme": "^1.2.1",
+    "lit": "^2.2.5"
   }
 }

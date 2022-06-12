@@ -1,30 +1,8 @@
 {
-  "brand": {
-    "radius": {
-      "base": {
-        "value": "{brand.radius.none}",
-        "type": "borderRadius"
-      }
-    }
-  },
-  "color": {
-    "brand": {
-      "brand-primary": {
-        "value": "{color.rose.700}",
-        "type": "color"
-      },
-      "brand-primary-hover": {
-        "value": "{color.rose.800}",
-        "type": "color"
-      },
-      "brand-primary-active": {
-        "value": "{color.rose.900}",
-        "type": "color"
-      },
-      "brand-inverse": {
-        "value": "{color.rose.600}",
-        "type": "color"
-      }
+  "radius": {
+    "base": {
+      "value": "{radius.none}",
+      "type": "borderRadius"
     }
   }
 }

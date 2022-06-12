@@ -103,7 +103,7 @@
       "type": "spacing"
     }
   },
-  "color": {
+  "core": {
     "white": {
       "value": "#ffffff",
       "type": "color"

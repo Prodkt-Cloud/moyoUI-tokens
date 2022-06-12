@@ -1,58 +1,54 @@
 {
-  "brand": {
-    "headlines": {
-      "value": "{Sora}",
-      "type": "fontFamilies"
+  "headlines": {
+    "value": "{Sora}",
+    "type": "fontFamilies"
+  },
+  "body": {
+    "value": "{Plus Jakarta Sans}",
+    "type": "fontFamilies"
+  },
+  "radius": {
+    "base": {
+      "value": "{radius.8}",
+      "type": "borderRadius"
     },
-    "body": {
-      "value": "{Plus Jakarta Sans}",
-      "type": "fontFamilies"
+    "half": {
+      "value": "{radius.base} / 2",
+      "type": "borderRadius"
     },
-    "radius": {
-      "base": {
-        "value": "{radius.8}",
-        "type": "borderRadius"
-      },
-      "half": {
-        "value": "{brand.radius.base} / 2",
-        "type": "borderRadius"
-      },
-      "quarter": {
-        "value": "{brand.radius.base} / 4",
-        "type": "borderRadius"
-      },
-      "middle": {
-        "value": "{brand.radius.base} * 1.5",
-        "type": "borderRadius"
-      },
-      "double": {
-        "value": "{brand.radius.base} * 2",
-        "type": "borderRadius"
-      },
-      "none": {
-        "value": "0",
-        "type": "borderRadius"
-      }
+    "quarter": {
+      "value": "{radius.base} / 4",
+      "type": "borderRadius"
+    },
+    "middle": {
+      "value": "{radius.base} * 1.5",
+      "type": "borderRadius"
+    },
+    "double": {
+      "value": "{radius.base} * 2",
+      "type": "borderRadius"
+    },
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
     }
   },
-  "color": {
-    "brand": {
-      "brand-primary": {
-        "value": "{color.blue.600}",
-        "type": "color"
-      },
-      "brand-primary-hover": {
-        "value": "{color.blue.700}",
-        "type": "color"
-      },
-      "brand-primary-active": {
-        "value": "{color.blue.800}",
-        "type": "color"
-      },
-      "brand-inverse": {
-        "value": "{color.blue.500}",
-        "type": "color"
-      }
+  "brand": {
+    "brand-primary": {
+      "type": "color",
+      "value": "{core.blue.600}"
+    },
+    "brand-primary-hover": {
+      "type": "color",
+      "value": "{core.blue.700}"
+    },
+    "brand-primary-active": {
+      "type": "color",
+      "value": "{core.blue.800}"
+    },
+    "brand-inverse": {
+      "type": "color",
+      "value": "{core.blue.500}"
     }
   },
   "fontWeights": {
@@ -145,7 +141,7 @@
     "body": {
       "body-01": {
         "value": {
-          "fontFamily": "{brand.body}",
+          "fontFamily": "{body}",
           "fontWeight": "{fontWeights.body.regular}",
           "lineHeight": "{lineHeights.body.default}",
           "fontSize": "{fontSize.base}",
@@ -158,7 +154,7 @@
       },
       "body-compact-01": {
         "value": {
-          "fontFamily": "{brand.body}",
+          "fontFamily": "{body}",
           "fontWeight": "{fontWeights.body.regular}",
           "lineHeight": "{lineHeights.body.compact}",
           "fontSize": "{fontSize.base}",
@@ -171,7 +167,7 @@
       },
       "body-small-01": {
         "value": {
-          "fontFamily": "{brand.body}",
+          "fontFamily": "{body}",
           "fontWeight": "{fontWeights.body.regular}",
           "lineHeight": "{lineHeights.body.default}",
           "fontSize": "{fontSize.small}",
@@ -184,7 +180,7 @@
       },
       "body-tiny-01": {
         "value": {
-          "fontFamily": "{brand.body}",
+          "fontFamily": "{body}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.body.default}",
           "fontSize": "{fontSize.2x-small}",
@@ -199,7 +195,7 @@
     "heading": {
       "heading-01": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.base}",
@@ -212,7 +208,7 @@
       },
       "heading-02": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.large}",
@@ -225,7 +221,7 @@
       },
       "heading-03": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.x-large}",
@@ -238,7 +234,7 @@
       },
       "heading-04": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.2x-large}",
@@ -251,7 +247,7 @@
       },
       "heading-05": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.3x-large}",
@@ -264,7 +260,7 @@
       },
       "heading-06": {
         "value": {
-          "fontFamily": "{brand.headlines}",
+          "fontFamily": "{headlines}",
           "fontWeight": "{fontWeights.headlines.bold}",
           "lineHeight": "{lineHeights.headlines.default}",
           "fontSize": "{fontSize.4x-large}",
@@ -313,9 +309,9 @@
         "value": {
           "verticalPadding": "{spacing.2}",
           "horizontalPadding": "{spacing.8}",
-          "borderRadius": "{brand.radius.base}",
+          "borderRadius": "{radius.base}",
           "border": "{theme.border.border-interactive}",
-          "fill": "{color.brand.brand-primary}"
+          "fill": "{brand.brand-primary}"
         },
         "type": "composition"
       },
@@ -323,7 +319,7 @@
         "value": {
           "verticalPadding": "{spacing.2}",
           "horizontalPadding": "{spacing.8}",
-          "borderRadius": "{brand.radius.base}",
+          "borderRadius": "{radius.base}",
           "border": "{theme.button.button-secondary}",
           "fill": "{theme.button.button-secondary}"
         },

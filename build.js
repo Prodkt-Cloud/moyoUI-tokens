@@ -55,7 +55,7 @@ function getStyleDictionaryConfig(theme, platform) {
       },
       "css": {
         transformGroup: 'css',
-        buildPath: 'build/css',
+        buildPath: `build/css/${theme}/`,
         files: [{
           destination: 'tokens.css',
           format: 'css/variables',
@@ -95,7 +95,7 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
 ['daylight', 'nightfall'].map(function (theme) {
-  ['web', 'ios', 'android'].map(function (platform) {
+  ['web', 'ios', 'android', 'css'].map(function (platform) {
 
     
 

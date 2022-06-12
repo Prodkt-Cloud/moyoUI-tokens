@@ -7,7 +7,7 @@
   line-height: var(--line-height-body-01);
   background-color: var(--brand-primary);
   border: 1px solid var(--button-primary);
-  padding: var(--spacing-10);
+  padding: var(--spacing-04) var(--spacing-04);
 }
 .storybook-button--primary {
 }

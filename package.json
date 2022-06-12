@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@etchteam/storybook-addon-css-variables-theme": "^1.2.1",
+    "@mdx-js/react": "^2.1.1",
     "lit": "^2.2.5"
   }
 }

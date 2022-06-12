@@ -1,8 +1,0 @@
-{
-  "radius": {
-    "base": {
-      "value": "{radius.none}",
-      "type": "borderRadius"
-    }
-  }
-}

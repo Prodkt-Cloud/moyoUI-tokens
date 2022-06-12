@@ -41,68 +41,6 @@
       "type": "borderRadius"
     }
   },
-  "spacing": {
-    "0": {
-      "value": "0px",
-      "type": "spacing"
-    },
-    "1": {
-      "value": "1px",
-      "type": "spacing"
-    },
-    "2": {
-      "value": "2px",
-      "type": "spacing"
-    },
-    "4": {
-      "value": "4px",
-      "type": "spacing"
-    },
-    "8": {
-      "value": "8px",
-      "type": "spacing"
-    },
-    "12": {
-      "value": "12px",
-      "type": "spacing"
-    },
-    "16": {
-      "value": "16px",
-      "type": "spacing"
-    },
-    "24": {
-      "value": "24px",
-      "type": "spacing"
-    },
-    "32": {
-      "value": "32px",
-      "type": "spacing"
-    },
-    "40": {
-      "value": "40px",
-      "type": "spacing"
-    },
-    "48": {
-      "value": "48px",
-      "type": "spacing"
-    },
-    "64": {
-      "value": "64px",
-      "type": "spacing"
-    },
-    "80": {
-      "value": "80px",
-      "type": "spacing"
-    },
-    "96": {
-      "value": "96px",
-      "type": "spacing"
-    },
-    "160": {
-      "value": "160px",
-      "type": "spacing"
-    }
-  },
   "white": {
     "value": "#ffffff",
     "type": "color"
@@ -1061,17 +999,27 @@
       "type": "borderWidth"
     }
   },
-  "Inter": {
-    "value": "Inter",
-    "type": "fontFamilies"
-  },
-  "Plus Jakarta Sans": {
-    "value": "Plus Jakarta Sans",
-    "type": "fontFamilies"
-  },
-  "Sora": {
-    "value": "Sora",
-    "type": "fontFamilies"
+  "FontFamily": {
+    "Inter": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    },
+    "Plus Jakarta Sans": {
+      "value": "Plus Jakarta Sans",
+      "type": "fontFamilies"
+    },
+    "Sora": {
+      "value": "Sora",
+      "type": "fontFamilies"
+    },
+    "IBM Plex Mono": {
+      "value": "IBM Plex Mono",
+      "type": "fontFamilies"
+    },
+    "DM Sans": {
+      "value": "DM Sans",
+      "type": "fontFamilies"
+    }
   },
   "opacity": {
     "0": {

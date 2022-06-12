@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 12 Jun 2022 11:27:29 GMT
+// Generated on Sun, 12 Jun 2022 20:34:23 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -20,27 +20,12 @@
 #define Radius24 24px
 #define Radius32 32px
 #define Radius64 64px
+#define RadiusNone 8px * 0
 #define RadiusBase 8px
-#define RadiusHalf 8px / 2
 #define RadiusQuarter 8px / 4
+#define RadiusHalf 8px / 2
 #define RadiusMiddle 8px * 1.5
 #define RadiusDouble 8px * 2
-#define RadiusNone 0
-#define Spacing0 0px
-#define Spacing1 1px
-#define Spacing2 2px
-#define Spacing4 4px
-#define Spacing8 8px
-#define Spacing12 12px
-#define Spacing16 16px
-#define Spacing24 24px
-#define Spacing32 32px
-#define Spacing40 40px
-#define Spacing48 48px
-#define Spacing64 64px
-#define Spacing80 80px
-#define Spacing96 96px
-#define Spacing160 160px
 #define White #ffffff
 #define Black #000000
 #define Slate50 #f8fafc
@@ -269,9 +254,11 @@
 #define BorderWidth4 4
 #define BorderWidth8 8
 #define BorderWidth12 12
-#define Inter Inter
-#define PlusJakartaSans Plus Jakarta Sans
-#define Sora Sora
+#define FontFamilyInter Inter
+#define FontFamilyPlusJakartaSans Plus Jakarta Sans
+#define FontFamilySora Sora
+#define FontFamilyIbmPlexMono IBM Plex Mono
+#define FontFamilyDmSans DM Sans
 #define Opacity0 0
 #define Opacity8 8%
 #define Opacity12 12%
@@ -280,8 +267,9 @@
 #define Opacity32 32%
 #define Opacity64 64%
 #define Opacity80 80%
-#define Headlines Sora
-#define Body Plus Jakarta Sans
+#define FontFamilyHeadlines Inter
+#define FontFamilyBody Inter
+#define FontFamilyCode IBM Plex Mono
 #define BrandPrimary #2563eb
 #define BrandPrimaryHover #1d4ed8
 #define BrandPrimaryActive #1e40af
@@ -290,39 +278,84 @@
 #define FontWeightsHeadlinesRegular Regular
 #define FontWeightsBodyBold Bold
 #define FontWeightsBodyRegular Regular
-#define LineHeightsBodyDefault 150%
-#define LineHeightsBodyCompact 100%
+#define LineHeightBody01 20
+#define LineHeightBody02 24
+#define LineHeightCompact01 18
+#define LineHeightCompact02 22
+#define LineHeightHeadingCompact01 18
+#define LineHeightHeadingCompact02 22
+#define LineHeightHeading01 20
+#define LineHeightHeading02 24
+#define LineHeightHeading03 28
+#define LineHeightHeading04 36
+#define LineHeightHeading05 40
+#define LineHeightHeading06 50
+#define LineHeightHeading07 64
+#define LineHeightCode01 16
+#define LineHeightCode02 20
+#define LineHeightLabel01 16
+#define LineHeightLabel02 20
+#define LineHeightHelperText01 16
+#define LineHeightHelperText02 18
+#define LineHeightLegal01 16
+#define LineHeightLegal02 18
 #define LineHeightsHeadlinesDefault 110%
-#define FontSizeBase 16
+#define FontSizeBase 12
 #define FontSizeScale 1.2
-#define FontSize2xSmall roundTo(roundTo(roundTo(16 / 1.2, 0) / 1.2, 0) / 1.2, 0)
-#define FontSizeXSmall roundTo(roundTo(16 / 1.2, 0) / 1.2, 0)
-#define FontSizeSmall roundTo(16 / 1.2, 0)
-#define FontSizeLarge roundTo(16 * 1.2, 0)
-#define FontSizeXLarge roundTo(roundTo(16 * 1.2, 0) * 1.2, 0)
-#define FontSize2xLarge roundTo(roundTo(roundTo(16 * 1.2, 0) * 1.2, 0) * 1.2, 0)
-#define FontSize3xLarge roundTo(roundTo(roundTo(roundTo(16 * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0)
-#define FontSize4xLarge roundTo(roundTo(roundTo(roundTo(roundTo(16 * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0)
-#define FontSize5xLarge roundTo(roundTo(roundTo(roundTo(roundTo(roundTo(16 * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0) * 1.2, 0)
+#define FontSizeXSmall roundTo(12 / 1, 0)
+#define FontSizeSmall roundTo(12 * 1.2, 0)
+#define FontSizeDefault roundTo(roundTo(12 * 1.2, 0) * 1.15, 0)
+#define FontSizeLarge roundTo(roundTo(roundTo(12 * 1.2, 0) * 1.15, 0) * 1.25, 0)
+#define FontSizeXLarge roundTo(roundTo(roundTo(roundTo(12 * 1.2, 0) * 1.15, 0) * 1.25, 0) * 1.4, 0)
+#define FontSize2xLarge roundTo(roundTo(roundTo(roundTo(roundTo(12 * 1.2, 0) * 1.15, 0) * 1.25, 0) * 1.4, 0) * 1.15, 0)
+#define FontSize3xLarge roundTo(roundTo(roundTo(roundTo(roundTo(roundTo(12 * 1.2, 0) * 1.15, 0) * 1.25, 0) * 1.4, 0) * 1.15, 0) * 1.3, 0)
+#define FontSize4xLarge roundTo(roundTo(roundTo(roundTo(roundTo(roundTo(roundTo(12 * 1.2, 0) * 1.15, 0) * 1.25, 0) * 1.4, 0) * 1.15, 0) * 1.3, 0) * 1.275, 0)
 #define Heading01 [object Object]
 #define Heading02 [object Object]
 #define Heading03 [object Object]
 #define Heading04 [object Object]
 #define Heading05 [object Object]
 #define Heading06 [object Object]
+#define Heading07 [object Object]
+#define HeadingCompact01 [object Object]
+#define HeadingCompact02 [object Object]
 #define TextDecorationNone none
+#define TextDecorationUnderline underline
 #define TextCaseNone none
+#define TextCaseUppercase uppercase
 #define LetterSpacingBody 0%
 #define ParagraphSpacingDefault 0
-#define LearnerPortalHeader [object Object]
-#define LearnerPortalBadgePrimaryBadge [object Object]
-#define LearnerPortalBadgeSecondaryBadge [object Object]
-#define LearnerPortalCardCardHeader [object Object]
-#define LearnerPortalCardCardFooter [object Object]
-#define LearnerPortalCardCardFooterNoVertPadding [object Object]
-#define LearnerPortalCardCardBody [object Object]
-#define LearnerPortalCardCardBodyHalfPadding [object Object]
-#define LearnerPortalCardCardBodyHalfPaddingNoTopPadding [object Object]
+#define Body01 [object Object]
+#define Body01Bold [object Object]
+#define Body02 [object Object]
+#define Body02Bold [object Object]
+#define BodyCompact01 [object Object]
+#define BodyCompact02 [object Object]
+#define Spacing10 8px * 8
+#define Spacing11 8px * 10
+#define SpacingBase 8px
+#define Spacing01 8px / 4
+#define Spacing02 8px / 2
+#define Spacing03 8px
+#define Spacing04 8px * 1.5
+#define Spacing05 8px * 2
+#define Spacing06 8px * 3
+#define Spacing07 8px * 4
+#define Spacing08 8px * 5
+#define Spacing09 8px * 6
+#define Spacing00 8px * 0
+#define BadgePrimary [object Object]
+#define BadgeSecondary [object Object]
+#define BadgeDanger [object Object]
+#define BadgeInverse [object Object]
+#define Code01 [object Object]
+#define Code02 [object Object]
+#define Label01 [object Object]
+#define Label02 [object Object]
+#define HelperText01 [object Object]
+#define HelperText02 [object Object]
+#define Legal01 [object Object]
+#define Legal02 [object Object]
 #define BackgroundBase #ffffff
 #define BackgroundHover rgba(#6b7280, 12%)
 #define BackgroundActive rgba(#6b7280, 32%)
@@ -421,10 +454,11 @@
 #define SupportInfoInverse #3b82f6
 #define FocusFocus #2563eb
 #define FocusInset #ffffff
-#define FocusInverse #ffffff
+#define FocusFocusInverse #ffffff
 #define MiscInteractive #2563eb
 #define MiscHighlight #bfdbfe
 #define MiscToggleOff #6b7280
 #define MiscOverlay rgba(#f3f4f6, 64%)
 #define MiscOverlayStrong rgba(#111827, 80%)
+#define ShadowDefault #1f2937
 

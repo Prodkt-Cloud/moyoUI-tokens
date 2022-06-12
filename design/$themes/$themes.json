@@ -16,8 +16,7 @@
       "global": "enabled",
       "daylight": "disabled",
       "nightfall": "enabled",
-      "brand-base": "enabled",
-      "brand-sharp": "disabled"
+      "brand-base": "enabled"
     },
     "$figmaStyleReferences": {}
   }

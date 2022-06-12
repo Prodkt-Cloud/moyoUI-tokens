@@ -438,5 +438,11 @@
       "value": "rgba({gray.900}, {opacity.80})",
       "type": "color"
     }
+  },
+  "shadow": {
+    "default": {
+      "value": "{gray.800}",
+      "type": "color"
+    }
   }
 }

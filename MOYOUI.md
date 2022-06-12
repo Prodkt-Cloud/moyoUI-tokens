@@ -1,3 +1,1 @@
-node split-files.js
-
-style-dictionary build
+npm run build

@@ -2,13 +2,9 @@
 
 <!--
   Do not edit directly
-  Generated on Sun, 12 Jun 2022 06:27:02 GMT
+  Generated on Sun, 12 Jun 2022 08:15:44 GMT
 -->
 <resources>
-  <color name="color_brand_brand_primary">#ffb91c1c</color>
-  <color name="color_brand_brand_primary_hover">#ff991b1b</color>
-  <color name="color_brand_brand_primary_active">#ff7f1d1d</color>
-  <color name="color_brand_brand_inverse">#ffdc2626</color>
   <color name="color_white">#ffffffff</color>
   <color name="color_black">#ff000000</color>
   <color name="color_slate_50">#fff8fafc</color>
@@ -231,5 +227,9 @@
   <color name="color_rose_700">#ffbe123c</color>
   <color name="color_rose_800">#ff9f1239</color>
   <color name="color_rose_900">#ff881337</color>
+  <color name="color_brand_brand_primary">#ff2563eb</color>
+  <color name="color_brand_brand_primary_hover">#ff1d4ed8</color>
+  <color name="color_brand_brand_primary_active">#ff1e40af</color>
+  <color name="color_brand_brand_inverse">#ff3b82f6</color>
   
 </resources>

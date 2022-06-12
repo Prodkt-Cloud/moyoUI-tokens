@@ -11,7 +11,7 @@ fs.readFile("design/tokens.json", "utf-8", (err, data) => {
   tokensObj = JSON.parse(data.toString());
 
   Object.entries(tokensObj).forEach(([setName, setValues]) => {
-    const path = `design/${setName}`
+    const path = `design/${setName}/${setName}`
     if (path.split("/").length > 2) {
         path.split("/").slice(0, -1).reduce(
             (directories, directory) => {
@@ -27,7 +27,7 @@ fs.readFile("design/tokens.json", "utf-8", (err, data) => {
         );
     }
     // write JSON string to a file
-    fs.writeFile(`design/${setName}.json`, JSON.stringify(setValues, null, 2), (err) => {
+    fs.writeFile(`design/${setName}/${setName}.json`, JSON.stringify(setValues, null, 2), (err) => {
       if (err) {
         throw err;
       }

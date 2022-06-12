@@ -1,6 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
 
+
 module.exports = {
     format: {
       // Adding a custom format to show how to get an alias's name.
@@ -30,6 +31,8 @@ module.exports = {
     }
 }
 
+
+
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
 function getStyleDictionaryConfig(theme, platform) {
@@ -42,9 +45,9 @@ function getStyleDictionaryConfig(theme, platform) {
       `design/${theme}/*.json`
     ],
     "platforms": {
-      "web": {
-        "transformGroup": "web",
-        "buildPath": `build/web/${theme}/`,
+      "scss": {
+        "transformGroup": "scss",
+        "buildPath": `build/scss/${theme}/`,
         "files": [{
           "destination": "tokens.scss",
           "format": "scss/variables",
@@ -95,7 +98,7 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
 ['daylight', 'nightfall'].map(function (theme) {
-  ['web', 'ios', 'android', 'css'].map(function (platform) {
+  ['scss', 'ios', 'android', 'css'].map(function (platform) {
 
     
 
@@ -104,9 +107,9 @@ console.log('Build started...');
 
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme, platform));
 
-
     module.exports = {
         format: {
+
           // Adding a custom format to show how to get an alias's name.
           customFormat: function({dictionary, options}) {
             return dictionary.allTokens.map(token => {
@@ -131,47 +134,45 @@ console.log('Build started...');
               return `export const ${token.name} = ${value};`
             }).join(`\n`)
           }
-        },
-      
-        source: ['tokens/**/*.json'],
-        platforms: {
-          json: {
-            buildPath: 'build/',
-            files: [{
-              destination: 'tokens.json',
-              format: 'json/nested'
-            }]
-          },
-          js: {
-            buildPath: 'build/',
-            transformGroup: 'js',
-            files: [{
-              destination: 'tokens.js',
-              format: 'customFormat',
-              options: {
-                outputReferences: true
-              }
-            }]
-          },
-          css: {
-            transformGroup: 'css',
-            buildPath: 'build/',
-            files: [{
-              destination: 'tokens.css',
-              format: 'css/variables',
-              options: {
-                outputReferences: true, // new setting, if true will use variable references
-              }
-            },{
-              destination: 'tokens.scss',
-              format: 'scss/variables',
-              options: {
-                outputReferences: true, // new setting, if true will use variable references
-              }
-            }]
-          }
         }
       };
+
+      
+
+    /**
+ * Transform typography shorthands for css variables
+ */
+StyleDictionary.registerTransform({
+    name: "typography/shorthand",
+    type: "value",
+    transitive: true,
+    matcher: (token) => token.type === "typography",
+    transformer: (token) => {
+      const {fontWeight, fontSize, lineHeight, fontFamily} = token.original.value;
+      return `${fontWeight} ${fontSize}/${lineHeight} ${fontFamily}`;
+    },
+  });
+
+  /**
+ * Format for css typography classes
+ * This generates theme-independent css classes so we're fine with just using css variables here
+ * We're using the css shorthand to define the font: property and define all other values according to the typography token
+ */
+StyleDictionary.registerFormat({
+    name: "css/typographyClasses",
+    formatter: (dictionary, config) => (dictionary.allProperties.map((prop) => (`
+  .${prop.name} {
+    font: var(--${prop.name});
+    letter-spacing: ${convertToVariableIfNeeded(
+      prop.original.value.letterSpacing
+    )};
+    text-transform: ${convertToVariableIfNeeded(prop.original.value.textCase)};
+    text-decoration: ${convertToVariableIfNeeded(
+      prop.original.value.textDecoration
+    )};
+  }`)).join("\n"))
+  });
+
 
     StyleDictionary.buildPlatform(platform);
 

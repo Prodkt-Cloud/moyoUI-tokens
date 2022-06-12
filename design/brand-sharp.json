@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "radius": {
+      "base": {
+        "value": "{brand.radius.none}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "color": {
+    "brand": {
+      "brand-primary": {
+        "value": "{color.red.700}",
+        "type": "color"
+      },
+      "brand-primary-hover": {
+        "value": "{color.red.800}",
+        "type": "color"
+      },
+      "brand-primary-active": {
+        "value": "{color.red.900}",
+        "type": "color"
+      },
+      "brand-inverse": {
+        "value": "{color.red.600}",
+        "type": "color"
+      }
+    }
+  }
+}

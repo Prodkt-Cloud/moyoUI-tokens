@@ -54,6 +54,8 @@ console.log('Build started...');
 ['daylight', 'nightfall'].map(function (theme) {
   ['web', 'ios', 'android'].map(function (platform) {
 
+    
+
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${theme}]`);
 

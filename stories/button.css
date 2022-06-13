@@ -58,7 +58,7 @@
 }
 
 .moyo-button--tertiary {
-  background-color: var(--background-base);
+  background-color: transparent;
   border: var(--border-width-1) solid var(--button-tertiary);
   color: var(--button-tertiary);
 }

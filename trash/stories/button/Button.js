@@ -2,14 +2,11 @@ import { html } from 'lit-html';
 import { styleMap } from 'lit-html/directives/style-map.js';
 import './button.css';
 
-
-
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ design2dev, primary, secondary, danger, tertiary, ghost, layer = null, text, onClick }) => {
-  const mode = design2dev;
-
+export const DevTest = ({ DevTest = null, text, onClick }) => {
+  const mode = DevTest;
 
   return html`
     <button

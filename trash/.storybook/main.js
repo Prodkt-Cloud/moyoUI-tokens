@@ -5,8 +5,10 @@ module.exports = {
   ],
   "addons": [
     "@storybook/addon-links",
+    "@storybook/addon-docs",
+    "@etchteam/storybook-addon-css-variables-theme",
     "@storybook/addon-essentials",
-    '@etchteam/storybook-addon-css-variables-theme'
+    '@storybook/addon-viewport'
   ],
   "framework": "@storybook/web-components"
 }

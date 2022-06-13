@@ -1,3 +1,4 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
@@ -14,10 +15,10 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/web-components/writing-stories/introduction#using-args
-const Template = (args) => Button(args);
+const Template = (args) => DevTest(args);
 
-export const design2dev = Template.bind({});
+export const DevTest = Template.bind({});
 // More on args: https://storybook.js.org/docs/web-components/writing-stories/args
-design2dev.args = {
+DevTest.args = {
   text: 'Button',
 };

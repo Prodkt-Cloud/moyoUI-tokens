@@ -17,26 +17,19 @@
   "author": "Bryan Funk",
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "3.7.1",
-    "@babel/core": "^7.18.2",
+    "@babel/core": "^7.18.5",
     "@storybook/addon-actions": "^6.5.8",
     "@storybook/addon-essentials": "^6.5.8",
     "@storybook/addon-links": "^6.5.8",
     "@storybook/builder-webpack4": "^6.5.8",
     "@storybook/manager-webpack4": "^6.5.8",
     "@storybook/web-components": "^6.5.8",
-    "@storybook/addon-a11y": "^6.3.9",
-    "@storybook/addon-docs": "^6.3.9",
-    "@storybook/addon-knobs": "^6.3.1",
-    "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addon-viewport": "^6.3.9",
-    "@storybook/html": "^6.3.9",
     "babel-loader": "^8.2.5",
-    "lit-html": "^2.2.5"
+    "lit-html": "^2.2.5",
+    "style-dictionary": "3.7.1"
   },
   "dependencies": {
     "@etchteam/storybook-addon-css-variables-theme": "^1.2.1",
-    "@mdx-js/react": "^2.1.1",
-    "lit": "^2.2.5"
+    "@mdx-js/react": "^2.1.1"
   }
 }

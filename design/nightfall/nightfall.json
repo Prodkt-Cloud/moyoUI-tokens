@@ -2,7 +2,7 @@
   "background": {
     "base": {
       "type": "color",
-      "value": "{black}"
+      "value": "{indigo.900}"
     },
     "hover": {
       "value": "rgba({gray.500}, {opacity.12})",
@@ -170,7 +170,7 @@
   "border": {
     "subtle-00": {
       "type": "color",
-      "value": "{gray.800}"
+      "value": "{purple.800}"
     },
     "subtle-selected-00": {
       "type": "color",

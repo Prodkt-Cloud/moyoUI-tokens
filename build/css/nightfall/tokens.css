@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 15:57:21 GMT
+ * Generated on Mon, 13 Jun 2022 21:17:02 GMT
  */
 
 :root {
@@ -350,7 +350,7 @@
   --border-subtle-selected-01: var(--gray-700);
   --border-subtle-01: var(--gray-800);
   --border-subtle-selected-00: var(--gray-700);
-  --border-subtle-00: var(--gray-800);
+  --border-subtle-00: var(--purple-800);
   --field-hover-03: var(--gray-900);
   --field-03: var(--gray-900);
   --field-hover-02: var(--gray-900);
@@ -389,7 +389,7 @@
   --background-selected: rgba(var(--gray-500), var(--opacity-24));
   --background-active: rgba(var(--gray-500), var(--opacity-32));
   --background-hover: rgba(var(--gray-500), var(--opacity-12));
-  --background-base: var(--black);
+  --background-base: var(--indigo-900);
   --badge-layer: [object Object];
   --badge-danger: [object Object];
   --badge-secondary: [object Object];

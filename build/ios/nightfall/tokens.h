@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Jun 2022 15:57:21 GMT
+// Generated on Mon, 13 Jun 2022 21:17:02 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -358,7 +358,7 @@
 #define Legal01 [object Object]
 #define Legal02 [object Object]
 #define PositionFixed fixed
-#define BackgroundBase #000000
+#define BackgroundBase #312e81
 #define BackgroundHover rgba(#6b7280, 12%)
 #define BackgroundActive rgba(#6b7280, 32%)
 #define BackgroundSelected rgba(#6b7280, 24%)
@@ -398,7 +398,7 @@
 #define FieldHover02 #111827
 #define Field03 #111827
 #define FieldHover03 #111827
-#define BorderSubtle00 #1f2937
+#define BorderSubtle00 #6b21a8
 #define BorderSubtleSelected00 #374151
 #define BorderSubtle01 #1f2937
 #define BorderSubtleSelected01 #374151

@@ -40,10 +40,22 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => html`
                 </div>
             <div class="moyo-topbar--comsbar">
                 <button class="moyo-topbar--comsitem"><i class="fa-solid fa-inbox"></i></button>
+                <button class="moyo-topbar--comsitem"><i class="fa-solid fa-bell"></i></button>
+                <button class="moyo-topbar--comsitem"><i class="fa-solid fa-share-nodes"></i></button>
+                <button class="moyo-topbar--comsitem"><i class="fa-solid fa-users"></i></button>
+                <button class="moyo-topbar--comsitem"><i class="fa-solid fa-link"></i></button>
             </div>
       </div>
       
-      <div>
+      <div class="moyo-topbar--right">
+      <button class="moyo-topbar--right---itembase">
+        <span class="moyo-topbar--cart---count">10</span>
+        <i class="fa-solid fa-basket-shopping"></i>
+      </button>
+      <button class="moyo-topbar--right---itembase">
+      <img src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f2.svg"> English
+      </button>
+
         ${user
           ? Button({ size: 'small', onClick: onLogout, label: 'Log out' })
           : html`${Button({

@@ -7,8 +7,6 @@
   color: var(--text-on-color);
   line-height: var(--line-height-body-02);
   padding: calc(var(--spacing-04)) calc(var(--spacing-05));
-  background-color: var(--button-primary);
-  border: var(--border-width-1) solid var(--button-primary);
 }
 
 .moyo-button--primary {
@@ -69,6 +67,20 @@
 
 .moyo-button--tertiary:active {
   border: var(--border-width-1) solid var(--button-tertiary-active);
+  color: var(--button-tertiary-active);
+}
+
+.moyo-button--ghost {
+  border: var(--border-width-1) solid transparent;
+  background: rgba(255,255,255,0);
+  color: var(--button-tertiary);
+}
+
+.moyo-button--ghost:hover {
+  color: var(--button-tertiary-hover);
+}
+
+.moyo-button--ghost:active {
   color: var(--button-tertiary-active);
 }
 

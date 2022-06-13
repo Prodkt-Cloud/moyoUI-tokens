@@ -13,7 +13,7 @@ export const Button = ({ primary = null, variant, label, onClick }) => {
       class=${['moyo-button', `moyo-button--${variant || 'primary'}`, mode].join(' ')}
       @click=${onClick}
     >
-      ${label}
+    <i class="fa-brands fa-figma"></i> ${label} <i class="fa-brands fa-figma"></i>
     </button>
   `;
 };

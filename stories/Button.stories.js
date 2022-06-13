@@ -10,6 +10,13 @@ export default {
       control: { type: 'select' },
       options: ['primary', 'secondary', 'danger', 'tertiary', 'ghost', 'layer'],
     },
+    iconLeading: {
+      name: 'iconLeading',
+      table: { category: 'Properties', defaultValue: { summary: 'false' } },
+      control: {
+        type: 'boolean',
+      },
+    },
   },
 };
 

@@ -2,6 +2,9 @@
   font-family: var(--font-family-body), 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: var(--font-weights-body-regular);
   border-radius: var(--radius-base);
+  display: flex;
+  align-items: center;
+  gap: calc(var(--spacing-04));
   cursor: pointer;
   font-size: var(--font-size-default);
   color: var(--text-on-color);

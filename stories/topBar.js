@@ -9,14 +9,6 @@ export const Button = ({ primary = null, variant, label, onClick, iconStyle, sho
 
 
   return html`
-    <button
-      type="button"
-      class=${['moyo-button', `moyo-button--${variant || 'primary'}`, mode].join(' ')}
-      @click=${onClick}
-    >
-
     
-    <i class="${iconStyle} fa-${iconLeft}"></i> ${label} <i class="${iconStyle} fa-${iconRight}"></i>
-    </button>
   `;
 };

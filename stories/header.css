@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: calc(var(--spacing-01));
+  gap: calc(var(--spacing-03));
 }
 
 .moyo-topbar--comsitem {
@@ -89,8 +89,9 @@
 .moyo-topbar--right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   gap: 0;
+  width: 100%;
 }
 
 .moyo-topbar--right---itembase {
@@ -106,7 +107,16 @@
   border-left: var(--border-width-1) solid var(--border-subtle-00);
   height: 96px;
   min-width: 96px;
+  width:auto;
   gap: calc(var(--spacing-04));
+  color: var(--text-primary);
+  font-size: var(--font-size-default);
+  font-family: var(--font-family-body), 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.moyo-topbar--right---itembase img {
+  max-width: 24px;
+  max-height: 24px;
 }
 
 
@@ -134,8 +144,30 @@
   color: var(--text-inverse);
 }
 
-button + button {
-  margin-left: 10px;
+.moyo-badge {
+  padding: calc(var(--spacing-02)) calc(var(--spacing-03));
+  background-color: var(--button-primary);
+  border-radius: calc(var(--radius-half));
+  color: var(--text-on-color);
+  font-size: 12px;
+}
+
+.moyo-topbar--userpanel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  gap: calc(var(--spacing-02));
+}
+
+.moyo-topbar--userpanel---avatar {
+  min-width: 48px;
+  min-height: 48px;
+  overflow: hidden;
+  background-color: var(--brand-primary);
+  border-radius: var(--radius-base)
 }
 
 .welcome {

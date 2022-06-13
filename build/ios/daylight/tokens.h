@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Jun 2022 12:46:03 GMT
+// Generated on Mon, 13 Jun 2022 13:43:25 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -270,7 +270,7 @@
 #define FontFamilyHeadlines Inter
 #define FontFamilyBody Inter
 #define FontFamilyCode IBM Plex Mono
-#define BrandPrimary #2563eb
+#define BrandPrimary #9333ea
 #define BrandPrimaryHover #1d4ed8
 #define BrandPrimaryActive #1e40af
 #define BrandInverse #3b82f6
@@ -365,7 +365,7 @@
 #define BackgroundSelectedHover rgba(#6b7280, 32%)
 #define BackgroundInverse #1f2937
 #define BackgroundInverseHover #374151
-#define BackgroundBrand #2563eb
+#define BackgroundBrand #9333ea
 #define Layer01 #f3f4f6
 #define LayerHover01 #e5e7eb
 #define LayerActive01 #d1d5db
@@ -411,7 +411,7 @@
 #define BorderStrong03 #6b7280
 #define BorderInverse #111827
 #define BorderDisabled #d1d5db
-#define BorderInteractive #2563eb
+#define BorderInteractive #9333ea
 #define TextPrimary #111827
 #define TextSecondary #374151
 #define TextPlaceholder #6b7280
@@ -432,13 +432,13 @@
 #define IconOnColorDisabled #6b7280
 #define IconInverse #ffffff
 #define IconDisabled rgba(#f3f4f6, 24%)
-#define ButtonPrimary #2563eb
+#define ButtonPrimary #9333ea
 #define ButtonPrimaryHover #1d4ed8
 #define ButtonPrimaryActive #1e40af
 #define ButtonSecondary #1f2937
 #define ButtonSecondaryHover #111827
 #define ButtonSecondaryActive #374151
-#define ButtonTertiary #2563eb
+#define ButtonTertiary #9333ea
 #define ButtonTertiaryHover #1d4ed8
 #define ButtonTertiaryActive #1e40af
 #define ButtonDanger #dc2626
@@ -454,10 +454,10 @@
 #define SupportWarningInverse #eab308
 #define SupportInfo #1d4ed8
 #define SupportInfoInverse #3b82f6
-#define FocusFocus #2563eb
+#define FocusFocus #9333ea
 #define FocusInset #ffffff
 #define FocusFocusInverse #ffffff
-#define MiscInteractive #2563eb
+#define MiscInteractive #9333ea
 #define MiscHighlight #bfdbfe
 #define MiscToggleOff #6b7280
 #define MiscOverlay rgba(#f3f4f6, 64%)

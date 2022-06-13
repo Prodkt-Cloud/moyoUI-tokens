@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Jun 2022 12:46:04 GMT
+// Generated on Mon, 13 Jun 2022 13:43:25 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -270,7 +270,7 @@
 #define FontFamilyHeadlines Inter
 #define FontFamilyBody Inter
 #define FontFamilyCode IBM Plex Mono
-#define BrandPrimary #2563eb
+#define BrandPrimary #9333ea
 #define BrandPrimaryHover #1d4ed8
 #define BrandPrimaryActive #1e40af
 #define BrandInverse #3b82f6
@@ -365,7 +365,7 @@
 #define BackgroundSelectedHover rgba(#6b7280, 32%)
 #define BackgroundInverse #f3f4f6
 #define BackgroundInverseHover #e5e7eb
-#define BackgroundBrand #2563eb
+#define BackgroundBrand #9333ea
 #define Layer01 #111827
 #define LayerHover01 #1f2937
 #define LayerActive01 #374151
@@ -432,7 +432,7 @@
 #define IconOnColorDisabled #6b7280
 #define IconInverse #000000
 #define IconDisabled rgba(#f3f4f6, 24%)
-#define ButtonPrimary #2563eb
+#define ButtonPrimary #9333ea
 #define ButtonPrimaryHover #1d4ed8
 #define ButtonPrimaryActive #1e40af
 #define ButtonSecondary #4b5563
@@ -454,10 +454,10 @@
 #define SupportWarningInverse #ca8a04
 #define SupportInfo #3b82f6
 #define SupportInfoInverse #1d4ed8
-#define FocusFocus #2563eb
+#define FocusFocus #9333ea
 #define FocusInset #ffffff
 #define FocusInverse #ffffff
-#define MiscInteractive #2563eb
+#define MiscInteractive #9333ea
 #define MiscHighlight #bfdbfe
 #define MiscToggleOff #6b7280
 #define MiscOverlay rgba(#f3f4f6, 64%)

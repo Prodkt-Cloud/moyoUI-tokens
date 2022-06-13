@@ -42,7 +42,7 @@
   "brand": {
     "primary": {
       "type": "color",
-      "value": "{blue.600}"
+      "value": "{purple.600}"
     },
     "primary-hover": {
       "type": "color",

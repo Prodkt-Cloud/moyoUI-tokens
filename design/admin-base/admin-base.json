@@ -1,0 +1,8 @@
+{
+  "admin": {
+    "base": {
+      "value": "{gray.900}",
+      "type": "color"
+    }
+  }
+}

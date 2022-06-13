@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 14:02:44 GMT
+ * Generated on Mon, 13 Jun 2022 15:57:21 GMT
  */
 
 :root {
@@ -307,6 +307,9 @@
   --support-success: var(--green-600);
   --support-error-inverse: var(--red-500);
   --support-error: var(--red-600);
+  --button-warning-active: var(--amber-800);
+  --button-warning-hover: var(--amber-700);
+  --button-warning: var(--amber-600);
   --button-disabled: var(--gray-300);
   --button-separator: var(--gray-200);
   --button-danger-active: var(--red-800);

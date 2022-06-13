@@ -3,10 +3,10 @@ export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   cssVariables: {
     files: {
-      'Light Theme': light,
-      'Dark Theme': dark,
+      'Daylight': light,
+      'Nightfall': dark,
     },
-    defaultTheme: 'Light Theme'
+    defaultTheme: 'Daylight'
   },
   controls: {
     matchers: {
@@ -14,6 +14,14 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  toolbar: {
+    icon: 'circlehollow',
+    // Array of plain string values or MenuItem shape (see below)
+    // Property that specifies if the name of the item will be displayed
+    showName: true,
+    // Change title based on selected value
+    dynamicTitle: true,
+  }
 }
 
 import cssVariablesTheme from '@etchteam/storybook-addon-css-variables-theme'

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 12 Jun 2022 22:58:39 GMT
+// Generated on Mon, 13 Jun 2022 06:00:46 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -249,11 +249,11 @@
 #define Rose800 #9f1239
 #define Rose900 #881337
 #define BorderWidth0 0
-#define BorderWidth1 1
-#define BorderWidth2 2
-#define BorderWidth4 4
-#define BorderWidth8 8
-#define BorderWidth12 12
+#define BorderWidth1 1px
+#define BorderWidth2 2px
+#define BorderWidth4 4px
+#define BorderWidth8 8px
+#define BorderWidth12 12px
 #define FontFamilyInter Inter
 #define FontFamilyPlusJakartaSans Plus Jakarta Sans
 #define FontFamilySora Sora
@@ -278,27 +278,28 @@
 #define FontWeightsHeadlinesRegular Regular
 #define FontWeightsBodyBold Bold
 #define FontWeightsBodyRegular Regular
-#define LineHeightBody01 20
-#define LineHeightBody02 24
-#define LineHeightCompact01 18
-#define LineHeightCompact02 22
-#define LineHeightHeadingCompact01 18
-#define LineHeightHeadingCompact02 22
-#define LineHeightHeading01 20
-#define LineHeightHeading02 24
-#define LineHeightHeading03 28
-#define LineHeightHeading04 36
-#define LineHeightHeading05 40
-#define LineHeightHeading06 50
-#define LineHeightHeading07 64
-#define LineHeightCode01 16
-#define LineHeightCode02 20
-#define LineHeightLabel01 16
-#define LineHeightLabel02 20
-#define LineHeightHelperText01 16
-#define LineHeightHelperText02 18
-#define LineHeightLegal01 16
-#define LineHeightLegal02 18
+#define LineHeightBody01 20px
+#define LineHeightBody02 24px
+#define LineHeightCompact01 18px
+#define LineHeightCompact02 22px
+#define LineHeightHeadingCompact01 18px
+#define LineHeightHeadingCompact02 22px
+#define LineHeightHeading01 20px
+#define LineHeightHeading02 24px
+#define LineHeightHeading03 28px
+#define LineHeightHeading04 36px
+#define LineHeightHeading05 40px
+#define LineHeightHeading06 50px
+#define LineHeightHeading07 64px
+#define LineHeightCode01 16px
+#define LineHeightCode02 20px
+#define LineHeightLabel01 16px
+#define LineHeightLabel02 20px
+#define LineHeightHelperText01 16px
+#define LineHeightHelperText02 18px
+#define LineHeightLegal01 16px
+#define LineHeightLegal02 18px
+#define LineHeightsBodyDefault 110%
 #define LineHeightsHeadlinesDefault 110%
 #define FontSizeBase 12
 #define FontSizeScale 1.2

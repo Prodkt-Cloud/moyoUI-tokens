@@ -1,8 +1,7 @@
 import { Page } from './Page';
-import * as HeaderStories from './Header.stories';
 
 export default {
-  title: 'Example/Page',
+  title: 'MOYO UI Design System',
 };
 
 const Template = (args) => Page(args);

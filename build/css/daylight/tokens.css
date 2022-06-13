@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 13:43:25 GMT
+ * Generated on Mon, 13 Jun 2022 14:02:44 GMT
  */
 
 :root {
@@ -408,7 +408,7 @@
   --brand-inverse: var(--blue-500);
   --brand-primary-active: var(--blue-800);
   --brand-primary-hover: var(--blue-700);
-  --brand-primary: var(--purple-600);
+  --brand-primary: var(--blue-600);
   --font-family-code: var(--font-family-ibm-plex-mono);
   --font-family-body: var(--font-family-inter);
   --font-family-headlines: var(--font-family-inter);

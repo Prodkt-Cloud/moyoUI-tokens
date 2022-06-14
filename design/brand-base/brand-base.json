@@ -19,7 +19,7 @@
       "type": "borderRadius"
     },
     "base": {
-      "value": "{radius.8}",
+      "value": "0",
       "type": "borderRadius"
     },
     "quarter": {
@@ -42,19 +42,19 @@
   "brand": {
     "primary": {
       "type": "color",
-      "value": "{blue.600}"
+      "value": "{red.600}"
     },
     "primary-hover": {
       "type": "color",
-      "value": "{blue.700}"
+      "value": "{red.700}"
     },
     "primary-active": {
       "type": "color",
-      "value": "{blue.800}"
+      "value": "{red.800}"
     },
     "inverse": {
       "type": "color",
-      "value": "{blue.500}"
+      "value": "{red.500}"
     }
   },
   "fontWeights": {

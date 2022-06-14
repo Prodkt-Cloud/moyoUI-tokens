@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Jun 2022 06:44:01 GMT
+// Generated on Tue, 14 Jun 2022 18:14:36 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -20,12 +20,12 @@
 #define Radius24 24px
 #define Radius32 32px
 #define Radius64 64px
-#define RadiusNone 8px * 0
-#define RadiusBase 8px
-#define RadiusQuarter 8px / 4
-#define RadiusHalf 8px / 2
-#define RadiusMiddle 8px * 1.5
-#define RadiusDouble 8px * 2
+#define RadiusNone 0 * 0
+#define RadiusBase 0
+#define RadiusQuarter 0 / 4
+#define RadiusHalf 0 / 2
+#define RadiusMiddle 0 * 1.5
+#define RadiusDouble 0 * 2
 #define White #ffffff
 #define Black #000000
 #define Slate50 #f8fafc
@@ -270,10 +270,10 @@
 #define FontFamilyHeadlines Inter
 #define FontFamilyBody Inter
 #define FontFamilyCode IBM Plex Mono
-#define BrandPrimary #2563eb
-#define BrandPrimaryHover #1d4ed8
-#define BrandPrimaryActive #1e40af
-#define BrandInverse #3b82f6
+#define BrandPrimary #dc2626
+#define BrandPrimaryHover #b91c1c
+#define BrandPrimaryActive #991b1b
+#define BrandInverse #ef4444
 #define FontWeightsHeadlinesBold Bold
 #define FontWeightsHeadlinesRegular Regular
 #define FontWeightsBodyBold Bold
@@ -365,7 +365,7 @@
 #define BackgroundSelectedHover rgba(#6b7280, 32%)
 #define BackgroundInverse #f3f4f6
 #define BackgroundInverseHover #e5e7eb
-#define BackgroundBrand #2563eb
+#define BackgroundBrand #dc2626
 #define Layer01 #111827
 #define LayerHover01 #1f2937
 #define LayerActive01 #374151
@@ -411,7 +411,7 @@
 #define BorderStrong03 #9ca3af
 #define BorderInverse #f3f4f6
 #define BorderDisabled #d1d5db
-#define BorderInteractive #3b82f6
+#define BorderInteractive #ef4444
 #define TextPrimary #f3f4f6
 #define TextSecondary #d1d5db
 #define TextPlaceholder #4b5563
@@ -432,9 +432,9 @@
 #define IconOnColorDisabled #6b7280
 #define IconInverse #000000
 #define IconDisabled rgba(#f3f4f6, 24%)
-#define ButtonPrimary #2563eb
-#define ButtonPrimaryHover #1d4ed8
-#define ButtonPrimaryActive #1e40af
+#define ButtonPrimary #dc2626
+#define ButtonPrimaryHover #b91c1c
+#define ButtonPrimaryActive #991b1b
 #define ButtonSecondary #4b5563
 #define ButtonSecondaryHover #374151
 #define ButtonSecondaryActive #4b5563
@@ -457,10 +457,10 @@
 #define SupportWarningInverse #ca8a04
 #define SupportInfo #3b82f6
 #define SupportInfoInverse #1d4ed8
-#define FocusFocus #2563eb
+#define FocusFocus #dc2626
 #define FocusInset #ffffff
 #define FocusInverse #ffffff
-#define MiscInteractive #2563eb
+#define MiscInteractive #dc2626
 #define MiscHighlight #bfdbfe
 #define MiscToggleOff #6b7280
 #define MiscOverlay rgba(#f3f4f6, 64%)

@@ -13,6 +13,10 @@
         "value": "{gray.700}",
         "type": "color"
       }
+    },
+    "white": {
+      "value": "{white}",
+      "type": "color"
     }
   }
 }

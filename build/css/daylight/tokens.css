@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Jun 2022 06:44:01 GMT
+ * Generated on Tue, 14 Jun 2022 18:14:36 GMT
  */
 
 :root {
@@ -282,6 +282,7 @@
   --slate-50: #f8fafc;
   --black: #000000;
   --white: #ffffff;
+  --radius-base: 0;
   --radius-64: 64px;
   --radius-32: 32px;
   --radius-24: 24px;
@@ -408,14 +409,18 @@
   --spacing-10: var(--spacing-base) * 8;
   --font-size-small: roundTo(var(--font-size-base) * 1.2, 0);
   --font-size-x-small: roundTo(var(--font-size-base) / 1, 0);
-  --brand-inverse: var(--blue-500);
-  --brand-primary-active: var(--blue-800);
-  --brand-primary-hover: var(--blue-700);
-  --brand-primary: var(--blue-600);
+  --brand-inverse: var(--red-500);
+  --brand-primary-active: var(--red-800);
+  --brand-primary-hover: var(--red-700);
+  --brand-primary: var(--red-600);
   --font-family-code: var(--font-family-ibm-plex-mono);
   --font-family-body: var(--font-family-inter);
   --font-family-headlines: var(--font-family-inter);
-  --radius-base: var(--radius-8);
+  --radius-double: var(--radius-base) * 2;
+  --radius-middle: var(--radius-base) * 1.5;
+  --radius-half: var(--radius-base) / 2;
+  --radius-quarter: var(--radius-base) / 4;
+  --radius-none: var(--radius-base) * 0;
   --misc-interactive: var(--brand-primary);
   --focus-focus: var(--brand-primary);
   --button-tertiary-active: var(--brand-primary-active);
@@ -450,11 +455,6 @@
   --heading-02: [object Object];
   --heading-01: [object Object];
   --font-size-default: roundTo(var(--font-size-small) * 1.15, 0);
-  --radius-double: var(--radius-base) * 2;
-  --radius-middle: var(--radius-base) * 1.5;
-  --radius-half: var(--radius-base) / 2;
-  --radius-quarter: var(--radius-base) / 4;
-  --radius-none: var(--radius-base) * 0;
   --font-size-large: roundTo(var(--font-size-default) * 1.25, 0);
   --font-size-x-large: roundTo(var(--font-size-large) * 1.4, 0);
   --font-size-2x-large: roundTo(var(--font-size-x-large) * 1.15, 0);

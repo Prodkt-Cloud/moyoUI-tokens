@@ -54,6 +54,11 @@
   height:auto;
 }
 
+img#brand-logo--topbar {
+  height: 48px;
+  width: auto;
+}
+
 .moyo-topbar--comsbar {
   display: flex;
   align-items: center;
@@ -148,7 +153,7 @@
   color: var(--text-inverse);
 }
 
-.moyo-badge {
+.moyo-points--badge {
   padding: calc(var(--spacing-02)) calc(var(--spacing-03));
   background-color: var(--button-primary);
   border-radius: calc(var(--radius-half));
@@ -167,9 +172,10 @@
 }
 
 .moyo-topbar--userpanel---avatar {
+  position: relative;
   min-width: 48px;
   min-height: 48px;
-  overflow: hidden;
+  object-fit: cover;
   background-color: var(--brand-primary);
-  border-radius: var(--radius-base)
+  border-radius: var(--radius-base);
 }

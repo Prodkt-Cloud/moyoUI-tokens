@@ -1,12 +1,5 @@
 import { html } from 'lit-html';
 
-import imageFile from './assets/tovuti/tovuti-lms-logo.png';
-
-const image = {
-  src: imageFile,
-  alt: 'MOYO User Interface',
-};
-
 import './header.css';
 
 export const Header = ({ }) => html`
@@ -17,7 +10,7 @@ export const Header = ({ }) => html`
         <i class="fa-solid fa-bars" aria-hidden="true" focusable="false"></i>
       </button>
       <div class="moyo-logo--topbar">
-      <img id="brand-logo--topbar" src="https://github.com/Prodkt-Cloud/moyoUI-tokens/blob/tovuti-testing/stories/assets/tovuti/tovuti-lms-logo.png" alt="">
+      <img id="brand-logo--topbar" src="./tovuti/tovuti-lms-logo.png" alt="test">
       </div>
       <div class="moyo-topbar--comsbar">
       <button class="moyo-topbar--comsitem" aria-label="Inbox"><i class="fa-solid fa-inbox" aria-hidden="true" focusable="false"></i></button>
@@ -37,10 +30,10 @@ export const Header = ({ }) => html`
       </button>
       <button class="moyo-topbar--right---itembase">
         <div class="moyo-topbar--userpanel">
-          Callie Mulvihill
-          <div class="moyo-badge">1,000,000 Points</div>
+          Bryan Funk
+          <div class="moyo-points--badge">1,000,000 Points</div>
         </div>
-        <div class="moyo-topbar--userpanel---avatar"></div>
+        <img class="moyo-topbar--userpanel---avatar" src="./tovuti/bryanfunk.jpg" alt="test">
       </button>
     </div>
   </div>

@@ -137,8 +137,6 @@ console.log('Build started...');
         }
       };
 
-      
-
     /**
  * Transform typography shorthands for css variables
  */

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Jun 2022 07:40:08 GMT
+// Generated on Tue, 14 Jun 2022 06:44:01 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -358,7 +358,7 @@
 #define Legal01 [object Object]
 #define Legal02 [object Object]
 #define PositionFixed fixed
-#define BackgroundBase #000000
+#define BackgroundBase #111827
 #define BackgroundHover rgba(#6b7280, 12%)
 #define BackgroundActive rgba(#6b7280, 32%)
 #define BackgroundSelected rgba(#6b7280, 24%)
@@ -437,15 +437,18 @@
 #define ButtonPrimaryActive #1e40af
 #define ButtonSecondary #4b5563
 #define ButtonSecondaryHover #374151
-#define ButtonSecondaryActive #1f2937
+#define ButtonSecondaryActive #4b5563
 #define ButtonTertiary #ffffff
 #define ButtonTertiaryHover #f3f4f6
 #define ButtonTertiaryActive #d1d5db
-#define ButtonDanger #dc2626
-#define ButtonDangerHover #b91c1c
-#define ButtonDangerActive #991b1b
+#define ButtonDanger #b91c1c
+#define ButtonDangerHover #991b1b
+#define ButtonDangerActive #b91c1c
 #define ButtonSeparator #e5e7eb
 #define ButtonDisabled #d1d5db
+#define ButtonWarning #b45309
+#define ButtonWarningHover #92400e
+#define ButtonWarningActive #b45309
 #define SupportError #ef4444
 #define SupportErrorInverse #dc2626
 #define SupportSuccess #4ade80

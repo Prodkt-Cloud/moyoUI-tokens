@@ -2,29 +2,27 @@ import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Components/Button',
+  parameters: {
+    backgrounds: { disable: true },
+    layout: 'padded',
+  },
   // More on argTypes: https://storybook.js.org/docs/web-components/api/argtypes
   argTypes: {
     variant: {
       control: { type: 'select' },
-      options: ['primary', 'secondary', 'danger', 'tertiary', 'ghost', 'layer'],
+      options: ['primary', 'secondary', 'danger', 'warning', 'tertiary', 'ghost', 'layer'],
     },
     iconStyle: {
       control: { type: 'select' },
-      table: { category: 'Icon Style' },
+      table: { category: 'Icon' },
       defaultValue: 'fa-solid',
       options: ['fa-solid', 'fa-regular', 'fa-light', 'fa-thin', 'fa-duotone'],
     },
-    iconLeft: {
+    btnIcon: {
       control: { type: 'select' },
-      table: { category: 'Icon Left' },
+      table: { category: 'Icon' },
       defaultValue: 'dice-d20',
-      options: ['dice-d20', 'cards', 'text', 'warning', 'ghost', 'campfire'],
-    },
-    iconRight: {
-      control: { type: 'select' },
-      table: { category: 'Icon Right' },
-      defaultValue: 'ghost',
       options: ['dice-d20', 'cards', 'text', 'warning', 'ghost', 'campfire'],
     },
     // onClick: { action: 'onClick' },
@@ -39,7 +37,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: 'Button',
   variant: 'primary',
-  iconLeft: 'dice-d20',
+  backgrounds: { disable: true },
 };
 
 export const Secondary = Template.bind({});
@@ -52,6 +50,12 @@ export const Danger = Template.bind({});
 Danger.args = {
   label: 'Button',
   variant: 'danger',
+};
+
+export const Warning = Template.bind({});
+Warning.args = {
+  label: 'Button',
+  variant: 'warning',
 };
 
 export const Tertiary = Template.bind({});
@@ -71,4 +75,3 @@ Layer.args = {
   label: 'Button',
   variant: 'layer',
 };
-

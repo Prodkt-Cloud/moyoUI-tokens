@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "global": "enabled",
       "daylight": "enabled",
-      "brand-base": "enabled"
+      "brand-base": "enabled",
+      "admin-base": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -16,7 +17,8 @@
       "global": "enabled",
       "daylight": "disabled",
       "nightfall": "enabled",
-      "brand-base": "enabled"
+      "brand-base": "enabled",
+      "admin-base": "disabled"
     },
     "$figmaStyleReferences": {}
   }

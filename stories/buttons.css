@@ -1,0 +1,9 @@
+article.buttons {
+    display: flex;
+    padding: calc(var(--spacing-08));
+    gap: calc(var(--spacing-04));
+    flex-wrap: wrap;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}

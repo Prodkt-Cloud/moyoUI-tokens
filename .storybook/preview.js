@@ -1,10 +1,27 @@
+import { themes } from '@storybook/theming';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+
 export const parameters = {
+  viewport: {
+    viewports: INITIAL_VIEWPORTS,
+  },
+  docs: {
+    theme: themes.dark,
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+  },
+  layout: 'fullscreen',
+  grid: {
+    gridOn: true,
+    columns: 4,
+    gap: '0px',
+    gutter: '0px',
+    maxWidth: '1024px',
   },
   cssVariables: {
     files: {

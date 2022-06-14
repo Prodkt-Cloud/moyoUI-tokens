@@ -1,23 +1,8 @@
+import { addons } from '@storybook/addons';
+import { themes } from '@storybook/theming';
+import yourTheme from './YourTheme';
+import '/build/css/daylight/tokens.css';
+
 addons.setConfig({
-    isFullscreen: false,
-    showNav: true,
-    showPanel: true,
-    panelPosition: 'bottom',
-    enableShortcuts: true,
-    showToolbar: true,
-    theme: undefined,
-    selectedPanel: undefined,
-    initialActive: 'sidebar',
-    sidebar: {
-      showRoots: false,
-      collapsedRoots: ['other'],
-    },
-    toolbar: {
-      title: { hidden: false },
-      zoom: { hidden: false },
-      eject: { hidden: false },
-      copy: { hidden: false },
-      fullscreen: { hidden: false },
-      theme: { hidden: true },
-    },
-  });
+  theme: yourTheme,
+});

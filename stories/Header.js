@@ -46,7 +46,6 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => html`
       <button class="moyo-topbar--comsitem"><i class="fa-solid fa-link"></i></button>
       </div>
     </div>
-
     <div class="moyo-topbar--right">
       <button class="moyo-topbar--right---itembase">
         <span class="moyo-topbar--cart---count">10</span>
@@ -62,20 +61,6 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => html`
         </div>
         <div class="moyo-topbar--userpanel---avatar"></div>
       </button>
-
-    <!-- ${user
-    ? Button({ size: 'small', onClick: onLogout, label: 'Log out' })
-    : html`${Button({
-    size: 'small',
-    onClick: onLogin,
-    label: 'Log in',
-    })}
-    ${Button({
-    primary: true,
-    size: 'small',
-    onClick: onCreateAccount,
-    label: 'Sign up',
-    })}`} -->
     </div>
   </div>
 </header>

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 14 Jun 2022 02:01:30 GMT
+// Generated on Tue, 14 Jun 2022 05:10:52 GMT
 
 $position-fixed: fixed;
 $spacing-base: 8px;
@@ -305,6 +305,9 @@ $support-success-inverse: $green-600;
 $support-success: $green-400;
 $support-error-inverse: $red-600;
 $support-error: $red-500;
+$button-warning-active: $amber-700;
+$button-warning-hover: $amber-800;
+$button-warning: $amber-700;
 $button-disabled: $gray-300;
 $button-separator: $gray-200;
 $button-danger-active: $red-800;
@@ -313,7 +316,7 @@ $button-danger: $red-600;
 $button-tertiary-active: $gray-300;
 $button-tertiary-hover: $gray-100;
 $button-tertiary: $white;
-$button-secondary-active: $gray-800;
+$button-secondary-active: $gray-600;
 $button-secondary-hover: $gray-700;
 $button-secondary: $gray-600;
 $icon-disabled: rgba($gray-100, $opacity-24);

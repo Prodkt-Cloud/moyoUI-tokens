@@ -4,12 +4,14 @@
   border-radius: var(--radius-base);
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: calc(var(--spacing-04));
   cursor: pointer;
   font-size: var(--font-size-default);
   color: var(--text-on-color);
-  line-height: var(--line-height-body-02);
+  line-height: var(--line-height-body-01);
   padding: calc(var(--spacing-04)) calc(var(--spacing-05));
+  max-height: 48px;
 }
 
 .moyo-button--primary {
@@ -55,6 +57,21 @@
 .moyo-button--danger:active {
   background-color: var(--button-danger-active);
   border: var(--border-width-1) solid var(--button-danger-active);
+}
+
+.moyo-button--warning {
+  background-color: var(--button-warning);
+  border: var(--border-width-1) solid var(--button-warning);
+}
+
+.moyo-button--warning:hover {
+  background-color: var(--button-warning-hover);
+  border: var(--border-width-1) solid var(--button-warning-hover);
+}
+
+.moyo-button--warning:active {
+  background-color: var(--button-warning-active);
+  border: var(--border-width-1) solid var(--button-warning-active);
 }
 
 .moyo-button--tertiary {

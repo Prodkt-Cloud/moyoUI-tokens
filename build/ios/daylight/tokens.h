@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Jun 2022 02:01:30 GMT
+// Generated on Tue, 14 Jun 2022 05:10:52 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -446,9 +446,9 @@
 #define ButtonDangerActive #991b1b
 #define ButtonSeparator #e5e7eb
 #define ButtonDisabled #d1d5db
-#define ButtonWarning #d97706
-#define ButtonWarningHover #b45309
-#define ButtonWarningActive #92400e
+#define ButtonWarning #b45309
+#define ButtonWarningHover #92400e
+#define ButtonWarningActive #b45309
 #define SupportError #dc2626
 #define SupportErrorInverse #ef4444
 #define SupportSuccess #16a34a

@@ -369,15 +369,15 @@
       "value": "{gray.300}"
     },
     "warning": {
-      "value": "{amber.600}",
-      "type": "color"
-    },
-    "warning-hover": {
       "value": "{amber.700}",
       "type": "color"
     },
-    "warning-active": {
+    "warning-hover": {
       "value": "{amber.800}",
+      "type": "color"
+    },
+    "warning-active": {
+      "value": "{amber.700}",
       "type": "color"
     }
   },

@@ -6,6 +6,7 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  layout: 'fullscreen',
   cssVariables: {
     files: {
       'Daylight': light,

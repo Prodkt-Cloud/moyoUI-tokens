@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Jun 2022 02:01:30 GMT
+// Generated on Tue, 14 Jun 2022 05:10:52 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -437,7 +437,7 @@
 #define ButtonPrimaryActive #1e40af
 #define ButtonSecondary #4b5563
 #define ButtonSecondaryHover #374151
-#define ButtonSecondaryActive #1f2937
+#define ButtonSecondaryActive #4b5563
 #define ButtonTertiary #ffffff
 #define ButtonTertiaryHover #f3f4f6
 #define ButtonTertiaryActive #d1d5db
@@ -446,6 +446,9 @@
 #define ButtonDangerActive #991b1b
 #define ButtonSeparator #e5e7eb
 #define ButtonDisabled #d1d5db
+#define ButtonWarning #b45309
+#define ButtonWarningHover #92400e
+#define ButtonWarningActive #b45309
 #define SupportError #ef4444
 #define SupportErrorInverse #dc2626
 #define SupportSuccess #4ade80

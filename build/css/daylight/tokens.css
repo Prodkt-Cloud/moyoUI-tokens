@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Jun 2022 02:01:30 GMT
+ * Generated on Tue, 14 Jun 2022 05:10:52 GMT
  */
 
 :root {
@@ -307,9 +307,9 @@
   --support-success: var(--green-600);
   --support-error-inverse: var(--red-500);
   --support-error: var(--red-600);
-  --button-warning-active: var(--amber-800);
-  --button-warning-hover: var(--amber-700);
-  --button-warning: var(--amber-600);
+  --button-warning-active: var(--amber-700);
+  --button-warning-hover: var(--amber-800);
+  --button-warning: var(--amber-700);
   --button-disabled: var(--gray-300);
   --button-separator: var(--gray-200);
   --button-danger-active: var(--red-800);

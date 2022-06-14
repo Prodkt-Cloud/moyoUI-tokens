@@ -11,5 +11,6 @@ module.exports = {
     '@storybook/addon-viewport',
     'storybook-addon-designs'
   ],
+  staticDirs: ['../stories/assets', '../assets'],
   "framework": "@storybook/web-components"
 }

@@ -1,6 +1,10 @@
 import { themes } from '@storybook/theming';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 export const parameters = {
+  viewport: {
+    viewports: INITIAL_VIEWPORTS,
+  },
   docs: {
     theme: themes.dark,
   },

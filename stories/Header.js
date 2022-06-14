@@ -6,11 +6,11 @@ export const Header = ({  }) => html`
 <header>
   <div class="wrapper">
     <div class="moyo-topbar--left">
-      <button class="moyo-menu--toggle">
-        <i class="fa-solid fa-bars"></i>
+      <button class="moyo-menu--toggle" aria-label="Menu Trigger" aria-expanded="true" id="menu-trigger">
+        <i class="fa-solid fa-bars" aria-hidden="true" focusable="false"></i>
       </button>
       <div class="moyo-logo--topbar">
-        <svg width="191" height="48" viewBox="0 0 191 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="191" height="48" viewBox="0 0 191 48" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Tovuti User Interface">
           <g clip-path="url(#clip0_77_104)">
           <g clip-path="url(#clip1_77_104)">
           <path d="M30.9678 18.9294V27.8851H22.03L30.9678 18.9294Z" fill="var(--support-success)"/>
@@ -38,11 +38,11 @@ export const Header = ({  }) => html`
         </svg>
       </div>
       <div class="moyo-topbar--comsbar">
-      <button class="moyo-topbar--comsitem"><i class="fa-solid fa-inbox"></i></button>
-      <button class="moyo-topbar--comsitem"><i class="fa-solid fa-bell"></i></button>
-      <button class="moyo-topbar--comsitem"><i class="fa-solid fa-share-nodes"></i></button>
-      <button class="moyo-topbar--comsitem"><i class="fa-solid fa-users"></i></button>
-      <button class="moyo-topbar--comsitem"><i class="fa-solid fa-link"></i></button>
+      <button class="moyo-topbar--comsitem" aria-label="Inbox"><i class="fa-solid fa-inbox" aria-hidden="true" focusable="false"></i></button>
+      <button class="moyo-topbar--comsitem" aria-label="Notifications"><i class="fa-solid fa-bell" aria-hidden="true" focusable="false"></i></button>
+      <button class="moyo-topbar--comsitem" aria-label="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true" focusable="false"></i></button>
+      <button class="moyo-topbar--comsitem" aria-label="Friend Requests"><i class="fa-solid fa-users" aria-hidden="true" focusable="false"></i></button>
+      <button class="moyo-topbar--comsitem" aria-label="Private Share Link"><i class="fa-solid fa-link" aria-hidden="true" focusable="false"></i></button>
       </div>
     </div>
     <div class="moyo-topbar--right">

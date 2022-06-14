@@ -14,7 +14,7 @@ type="button"
 class=${['moyo-button', `moyo-button--${variant || 'primary'}`, mode].join(' ')}
 @click=${onClick}
 >
-<i class="${iconStyle} fa-${btnIcon}"></i> ${label}
+<i class="${iconStyle} fa-${btnIcon}" role="none"></i> ${label}
 </button>
   `;
 };

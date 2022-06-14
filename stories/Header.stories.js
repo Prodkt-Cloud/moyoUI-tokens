@@ -2,6 +2,9 @@ import { Header } from './Header';
 
 export default {
   title: 'Learner Portal/Header',
+  parameters: {
+    backgrounds: { disable: true },
+  },
 };
 
 const Template = (args) => Header(args);

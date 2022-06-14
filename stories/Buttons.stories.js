@@ -4,6 +4,10 @@ import * as HeaderStories from './Header.stories';
 
 export default {
   title: 'All/Buttons',
+  parameters: {
+    backgrounds: { disable: true },
+    layout: 'padded',
+  },
 };
 
 const Template = (args) => Buttons(args);

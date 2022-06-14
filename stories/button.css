@@ -11,7 +11,7 @@
   color: var(--text-on-color);
   line-height: var(--line-height-body-01);
   padding: calc(var(--spacing-04)) calc(var(--spacing-05));
-  max-height: 48px;
+  height: 48px;
 }
 
 .moyo-button--primary {

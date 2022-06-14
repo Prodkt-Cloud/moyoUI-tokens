@@ -26,10 +26,11 @@
     "@storybook/web-components": "^6.5.8",
     "babel-loader": "^8.2.5",
     "lit-html": "^2.2.5",
-    "style-dictionary": "3.7.1"
+    "style-dictionary": "^3.7.1"
   },
   "dependencies": {
     "@etchteam/storybook-addon-css-variables-theme": "^1.2.1",
-    "@mdx-js/react": "^2.1.1"
+    "@mdx-js/react": "^2.1.1",
+    "lit": "^2.2.5"
   }
 }

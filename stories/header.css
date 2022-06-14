@@ -141,6 +141,7 @@
 .moyo-topbar--cart---count {
   font-family: var(--font-family-body), 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: absolute;
+  font-size: 12px;
   top:0;
   right:0;
   padding: calc(var(--spacing-02)) calc(var(--spacing-02));

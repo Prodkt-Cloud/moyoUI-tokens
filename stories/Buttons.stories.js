@@ -6,7 +6,7 @@ export default {
   title: 'All/Buttons',
   parameters: {
     backgrounds: { disable: true },
-    layout: 'padded',
+    layout: 'fullscreen',
   },
 };
 

@@ -1,4 +1,9 @@
+import { themes } from '@storybook/theming';
+
 export const parameters = {
+  docs: {
+    theme: themes.dark,
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
@@ -7,6 +12,13 @@ export const parameters = {
     },
   },
   layout: 'fullscreen',
+  grid: {
+    gridOn: true,
+    columns: 4,
+    gap: '0px',
+    gutter: '0px',
+    maxWidth: '1024px',
+  },
   cssVariables: {
     files: {
       'Daylight': light,

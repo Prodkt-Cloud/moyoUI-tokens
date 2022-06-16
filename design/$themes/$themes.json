@@ -6,7 +6,8 @@
       "global": "enabled",
       "daylight": "enabled",
       "brand-base": "enabled",
-      "admin-base": "disabled"
+      "admin-base": "disabled",
+      "bootstrap": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -18,7 +19,8 @@
       "daylight": "disabled",
       "nightfall": "enabled",
       "brand-base": "enabled",
-      "admin-base": "disabled"
+      "admin-base": "disabled",
+      "bootstrap": "disabled"
     },
     "$figmaStyleReferences": {}
   }

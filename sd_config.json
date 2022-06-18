@@ -1,0 +1,7 @@
+{
+    "tokenSetsDirPath": "themes",
+    "tokenSetsPath": "themes/**/*.json",
+    "tokenSetsThemeMetaPath": "./themes/$themes.json",
+    "owner": "prodkt-cloud",
+    "repo": "moyoUI-tokens"
+  }

@@ -12,7 +12,8 @@
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "transformfigma": "node transformToCSS.js"
   },
   "author": "Bryan Funk",
   "license": "Apache-2.0",
@@ -37,7 +38,10 @@
     "@mdx-js/react": "^2.1.1",
     "@storybook/addons": "^6.5.9",
     "@storybook/theming": "^6.5.9",
+    "color2k": "^2.0.0",
+    "expr-eval": "^2.0.2",
     "lit": "^2.2.5",
+    "lodash": "^4.17.21",
     "storybook-addon-grid": "^0.1.0"
   }
 }

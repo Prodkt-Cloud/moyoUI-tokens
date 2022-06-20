@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "base": {
+      "value": "{gray.900}",
+      "type": "color"
+    },
+    "layer": {
+      "01": {
+        "value": "{gray.800}",
+        "type": "color"
+      },
+      "02": {
+        "value": "{gray.700}",
+        "type": "color"
+      }
+    }
+  }
+}

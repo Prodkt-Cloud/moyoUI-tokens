@@ -39,6 +39,10 @@
     "64": {
       "value": "64px",
       "type": "borderRadius"
+    },
+    "128": {
+      "value": "128px",
+      "type": "borderRadius"
     }
   },
   "white": {
@@ -47,6 +51,10 @@
   },
   "black": {
     "value": "#000000",
+    "type": "color"
+  },
+  "transparent": {
+    "value": "hsla(255,0%,100%,0.01)",
     "type": "color"
   },
   "slate": {

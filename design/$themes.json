@@ -10,7 +10,8 @@
       "03_comp": "disabled",
       "05_frameworks/bootstrap": "disabled",
       "05_frameworks/tailwind": "disabled",
-      "04_brand/brand-base": "enabled"
+      "04_brand/brand-base": "enabled",
+      "01_core/typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -25,7 +26,8 @@
       "03_comp": "disabled",
       "05_frameworks/bootstrap": "disabled",
       "05_frameworks/tailwind": "disabled",
-      "04_brand/brand-base": "enabled"
+      "04_brand/brand-base": "enabled",
+      "01_core/typography": "disabled"
     },
     "$figmaStyleReferences": {}
   }

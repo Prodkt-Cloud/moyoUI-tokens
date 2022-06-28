@@ -11,7 +11,8 @@
       "05_frameworks/bootstrap": "disabled",
       "05_frameworks/tailwind": "disabled",
       "04_brand/brand-base": "enabled",
-      "01_core/typography": "disabled"
+      "01_core/typography": "disabled",
+      "01_core/spacing": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -27,7 +28,8 @@
       "05_frameworks/bootstrap": "disabled",
       "05_frameworks/tailwind": "disabled",
       "04_brand/brand-base": "enabled",
-      "01_core/typography": "disabled"
+      "01_core/typography": "disabled",
+      "01_core/spacing": "disabled"
     },
     "$figmaStyleReferences": {}
   }

@@ -456,5 +456,11 @@
       "value": "{gray.800}",
       "type": "color"
     }
+  },
+  "sizing": {
+    "400": {
+      "value": "400px",
+      "type": "sizing"
+    }
   }
 }

@@ -458,6 +458,10 @@
     }
   },
   "sizing": {
+    "200": {
+      "value": "200px",
+      "type": "sizing"
+    },
     "400": {
       "value": "400px",
       "type": "sizing"
